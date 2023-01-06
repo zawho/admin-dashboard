@@ -28,6 +28,16 @@ body {
 .sidebar {
     background-color: lightblue;
     grid-row: 1 / 3;
+    display: grid;
+    justify-items: center;
+}
+
+.sidebar-logo {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
 }
 
 .main-content {
