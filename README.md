@@ -1,1 +1,1 @@
-# admin-dashboard
+January 6, 2023 - I am now beginning the admin dashboard project, the final project of the Intermediate HTML and CSS Course as a part of The Odin Project's full stack Javascript track. I will primarily be focusing on implementing what I have learned about CSS Grid to build an admin dashboard page featuring a grid-based project section, navagational sidebar, and other elements.
