@@ -43,4 +43,25 @@ body {
 .main-content {
     background-color: lightgreen;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.project-container{
+    grid-column: 1 / 2;
+}
+
+.trend-container {
+    grid-column: 2 / 3;
+}
+
+.project-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project-item, .announce-main, .trend-main {
+    background-color: white;
 }
