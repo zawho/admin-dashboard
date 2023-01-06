@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.header {
+    background-color: lightpink;
+    grid-row: 1 / 3;
+}
+
+.sidebar {
+    background-color: lightblue;
+
+}
+
+.main-content {
+    background-color: lightgreen;
+    grid-column: 2 / 3;
+}
