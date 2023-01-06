@@ -11,12 +11,23 @@ body {
 
 .header {
     background-color: lightpink;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+}
+
+.greeting {
+    display: flex;
 }
 
 .sidebar {
     background-color: lightblue;
     grid-row: 1 / 3;
-
 }
 
 .main-content {
