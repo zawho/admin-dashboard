@@ -58,7 +58,22 @@ body {
 }
 
 .greeting {
+    justify-self: start;
     display: flex;
+    align-items: center;
+}
+
+.greeting-user-icon {
+    width: 50px;
+    opacity: 0.9;
+}
+
+.hello-div {
+    font-size: 0.8em;
+}
+
+.username-greet-div {
+    font-size: 1em;
 }
 
 .sidebar {
