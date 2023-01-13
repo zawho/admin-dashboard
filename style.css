@@ -19,19 +19,26 @@ body {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    padding: 0px 40px;
 }
 
 .search-container {
     justify-self: stretch;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .search-bar {
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(255, 222, 178);
+    padding: 0px 10px;
+    height: 1.8em;
     flex: 1;
+}
+.search-bar:focus {
+    outline: 2px solid grey;
 }
 
 .search-container > img{
@@ -44,7 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .notif-icon {
@@ -54,18 +61,19 @@ body {
 
 .info-user-icon {
     width: 30px;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .greeting {
     justify-self: start;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .greeting-user-icon {
     width: 50px;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .hello-div {
@@ -80,7 +88,7 @@ body {
     justify-self: end;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .head-buttons > button {
