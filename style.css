@@ -97,7 +97,7 @@ body {
     border: none;
     border-radius: 20px;
     background-color: rgb(248, 145, 19);
-    color: white;
+    color: rgb(255, 222, 178);
 }
 
 .sidebar {
@@ -149,6 +149,7 @@ body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
+    padding: 20px;
 }
 
 .project-container{
@@ -161,10 +162,27 @@ body {
 
 .project-main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
     gap: 20px;
 }
 
 .project-item, .announce-main, .trend-main {
-    background-color: white;
+    background-color: rgb(255, 222, 178);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.project-text {
+    padding: 10px 0px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.project-links > img {
+    width: 25px;
+    opacity: 0.7;
 }
