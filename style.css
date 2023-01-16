@@ -246,3 +246,19 @@ body {
 .trend-user, .trend-user-bio {
     font-size: 1rem;
 }
+
+@media only screen and (max-width: 792px) {
+    .sidebar {
+        width: 60px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    .sidebar-logo {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .primary-nav, .secondary-nav {
+        padding: 0px 0px 0px 20px;
+    }
+}
