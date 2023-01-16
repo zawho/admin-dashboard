@@ -209,7 +209,7 @@ body {
     padding: 10px 0px;
 }
 
-.announce-header, .announce-text, .trend-user, .trend-user-bio {
+.announce-header, .announce-text {
     font-size: 0.9rem;
 }
 
@@ -230,6 +230,10 @@ body {
 }
 
 .trend-icon {
-    width: 40px;
+    width: 50px;
     opacity: 0.7;
+}
+
+.trend-user, .trend-user-bio {
+    font-size: 1rem;
 }
