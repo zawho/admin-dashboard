@@ -172,6 +172,7 @@ body {
     background-color: rgb(255, 222, 178);
     border-radius: 15px;
     padding: 20px;
+    box-shadow: 3px 3px 4px rgb(140, 89, 58);
 }
 
 .project-item {
