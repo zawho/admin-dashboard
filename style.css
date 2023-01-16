@@ -173,6 +173,10 @@ body {
     padding: 20px;
 }
 
+.project-header, .announce-header, .trend-user {
+    font-weight: 600;
+}
+
 .project-text {
     padding: 10px 0px;
 }
@@ -200,7 +204,7 @@ body {
     padding: 10px 0px;
 }
 
-.announce-title, .announce-text, .trend-user, .trend-user-bio {
+.announce-header, .announce-text, .trend-user, .trend-user-bio {
     font-size: 0.8rem;
 }
 
