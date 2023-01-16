@@ -319,7 +319,49 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+    .page-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px 166px 5fr;
+    }
+
+    .sidebar {
+        grid-row: 1 / 2;
+        grid-column: 1 / 1;
+        grid-template-columns: 1fr 3fr 6fr;
+    }
+
+    .header {
+        padding: 5px;
+    }
+
     .head-buttons {
         gap: 20px;
+    }
+
+    .user-info {
+        gap: 10px;
+    }
+
+    .primary-nav, .secondary-nav {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .primary-nav {
+        padding: 0px 0px 45px 20px;
+    }
+
+    .secondary-nav {
+        padding: 0px 0px 45px 5px;
+    }
+
+    .header {
+        grid-row: 2 / 3;
+        grid-column: 1 / 1;
+    }
+
+    .main-content {
+        grid-row: 3 / 4;
+        grid-column: 1 / 1;
     }
 }
