@@ -287,7 +287,7 @@ body {
 
     .main-content {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 290px 400px;
+        grid-template-rows: 1fr 350px 400px;
     }
     
     .project-container{
@@ -330,6 +330,10 @@ body {
         grid-template-columns: 1fr 3fr 6fr;
     }
 
+    .sidebar-logo {
+        padding-left: 5px;
+    }
+
     .header {
         padding: 5px;
     }
@@ -344,15 +348,15 @@ body {
 
     .primary-nav, .secondary-nav {
         flex-direction: row;
-        gap: 5px;
+        gap: 10px;
     }
 
     .primary-nav {
-        padding: 0px 0px 45px 20px;
+        padding: 0px 0px 45px 5px;
     }
 
     .secondary-nav {
-        padding: 0px 0px 45px 5px;
+        padding: 0px 5px 45px 5px;
     }
 
     .header {
