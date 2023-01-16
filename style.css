@@ -311,3 +311,15 @@ body {
         display: none;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .project-main {
+        grid-template-columns: min(100%, 400px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .head-buttons {
+        gap: 20px;
+    }
+}
