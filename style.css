@@ -164,7 +164,7 @@ body {
 
 .project-main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
@@ -224,7 +224,7 @@ body {
 .trend-container {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    align-self: end;
+    
 }
 
 .trend-main {
