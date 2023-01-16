@@ -178,6 +178,7 @@ body {
 .project-item {
     display: grid;
     grid-template-rows: 1fr 6fr 1fr;
+    border-left: 10px solid rgb(135, 57, 9);
 }
 
 .project-header, .announce-header, .trend-user {
