@@ -78,11 +78,11 @@ body {
 }
 
 .hello-div {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 .username-greet-div {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .head-buttons {
@@ -122,7 +122,7 @@ body {
 }
 
 .sidebar-logo > div {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .primary-nav, .secondary-nav {
@@ -186,4 +186,20 @@ body {
 .project-links > img {
     width: 25px;
     opacity: 0.7;
+}
+
+.announce-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.announce-item-middle {
+    border-top: 1px solid rgba(153, 153, 153, 0.481);
+    border-bottom: 1px solid rgba(153, 153, 153, 0.481);
+    padding: 10px 0px;
+}
+
+.announce-text {
+    font-size: 0.8rem;
 }
